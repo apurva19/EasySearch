@@ -8,7 +8,7 @@ It takes the current Tab URL, crawls the source and extracts the main article. T
 
 - HTML,CSS,Javascript
 - Python
-- Flask
+- Flask (Newspaper Library)
 - Search API
 - Chrome APIs
 

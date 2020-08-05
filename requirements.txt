@@ -9,10 +9,9 @@ Flask-Cors==3.0.2
 idna==2.5
 itsdangerous==0.24
 jieba3k==0.35.1
-Jinja2==2.9.5
+Jinja2==2.10
 lxml==3.7.3
 newspaper3k==0.1.9
-nltk==3.4.5
 olefile==0.44
 packaging==16.8
 Pillow==4.0.0

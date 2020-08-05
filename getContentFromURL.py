@@ -16,6 +16,9 @@ def failurl(name):
 	return "Please enter a valid url"
 	
 @app.route('/', defaults={'path': ''})
+def emptyPath():
+	return "Hello"
+	
 @app.route('/<path:url>')
 def getContentFromURL(url):
 	article = Article(url)

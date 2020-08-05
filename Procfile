@@ -1,1 +1,1 @@
-web: gunicorn app:getContentFromURL
+web: gunicorn getContentFromURL:app

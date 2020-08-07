@@ -31,7 +31,7 @@ function getURL(x, callback){
 getURL("address", function(x){
     urlCurrent = x;
     URLC = x;
-    urlCurrent = "http://flask-javascc.herokuapp.com/" + urlCurrent;
+    urlCurrent = "https://easy-search1.herokuapp.com/" + urlCurrent;
     
     // Extract Keywords from URL
     var keywords = "";

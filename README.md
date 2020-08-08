@@ -2,12 +2,14 @@
 A Chrome Extension that helps you find 'Sites with Similar Content' for the article you are reading.
 
 ## **How It Works**
-It takes the current Tab URL, crawls the source and extracts the main article. Then it summarizes keywords and use them in Search API to recommend sites with similar content.
+It takes the current Tab URL, crawls the source and extracts the main article. Then it summarizes keywords using Newspaper library of Flask and use them in Custom Search API to recommend sites with similar content.
 
 ## **Technologies Used**
 
 - HTML,CSS,Javascript
-- Search API
+- Flask
+- Newspaper Library
+- Custom Search API
 - Chrome APIs
 
 **Sample Image**

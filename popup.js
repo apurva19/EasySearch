@@ -57,7 +57,7 @@ getURL("address", function(x){
 
         // Extract json from URL
             jsonURL = "https://www.googleapis.com/customsearch/v1?key=AIzaSyBP1wKW-0nBV0Im6QNOxIApWIoEU6mUvYk&q=" + 
-                      keywords + "&cx=010401654321447249722:6jnhkyjk280";
+                      keywords + "&cx=008813621191262943164:dfmmdpojgki";
             var xmlhttp = new XMLHttpRequest();
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
